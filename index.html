@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!--移动端必备-->
+		<meta name="viewport" content="width=device-width,maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+		<title>前端模板</title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+		<link href="css/index.css" rel="stylesheet" />
+		<script src="js/index.js"></script>
+		<script src="js/flexible.js"></script>
+	</head>
+
+	<body>
+		<section class="countdown">
+			<p>距离2020年还剩<span id="Showday">00</span>天<span id="Showhours">00</span>时<span id="Showminutes">00</span>分<span id="Showseconds">00</span>秒</p>
+			<button class="copy">Copy</button>
+		</section>
+		<section class="linkage">
+			<select class="province">
+				<option>--请选择--</option>
+			</select>
+			<select class="city">
+				<option>--请选择--</option>
+			</select>
+			<select class="district">
+				<option>--请选择--</option>
+			</select>
+		</section>
+		<section class="random">
+			<div class="snow"></div>
+			<button class="switch">打开/关闭飘雪效果</button>
+		</section>
+		<section class="uproll">
+			<p><span>如果上天再我一次机会<br>
+					我会对那个女孩说三个字</span></p>
+		</section>
+		<section class="printer">
+			<button onClick="PrintEffect()">打印</button>
+			<p></p>
+			<button onClick="DeleteEffect()">删除</button>
+		</section>
+		<section class="greatlotto">
+			<input type="text" name="birthday" value="19950115">
+			<button onClick="Calculation()">计算</button>
+			<br>
+			<span></span> </section>
+		<section class="racinglanterndraw">
+			<input type="text" value="50">
+			<button name="generate">生成</button>
+			<button name="star">开始</button>
+			<button name="end">暂停</button>
+			<ul>
+			</ul>
+		</section>
+		<section class="turntableclock">
+			<ul class="hour">
+			</ul>
+			<ul class="minute">
+			</ul>
+			<ul class="second">
+			</ul>
+		</section>
+		<input type="date" name="bday">
+	</body>
+</html>
